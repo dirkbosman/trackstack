@@ -1,0 +1,39 @@
+# Template
+<event_name>:
+  parameters:
+    <parameter_name>:
+      - <....>
+    <parameter_value>:
+      - <....>
+  description:
+    - <..................................................>
+  triggered_when:
+    - <..................................................>
+  attributes:
+    cvr:
+      - <FALSE|TRUE>
+    default_system_event:
+      - <FALSE|TRUE>
+    deprecated:
+      - <FALSE|TRUE>
+    relates_to:
+      - <....>
+    platform:
+      - <web|app_android|app_ios>
+    tags:
+      - <tag1>
+      - <tag2>
+      - <tag3>
+    tickets_about_origin:
+      - <JIRA-101>
+    tickets_about_audit:
+      - <JIRA-102>
+    tickets_about_updates:
+      - <JIRA-103>
+    tickets_about_analysis:
+      - <JIRA-104>
+      - <JIRA-105>
+    folders:
+      - meta_data/<event_name>/code/
+      - meta_data/<event_name>/images/
+      - meta_data/<event_name>/qa_logs/
