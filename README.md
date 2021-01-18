@@ -1,4 +1,4 @@
-# TrackStack
+# Track Stack Toolkit (tst)
 
 A tracking toolkit which helps developers and analytics team to:
 
